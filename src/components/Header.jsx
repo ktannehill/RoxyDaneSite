@@ -3,7 +3,7 @@ import "../styles/header-footer.css"
 
 const Header = () => {
   return (
-    <div className="header">
+    <div id="header">
       <ul>
         <li>Home</li>
         <li>Children</li>
