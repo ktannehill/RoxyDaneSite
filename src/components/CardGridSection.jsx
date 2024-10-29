@@ -2,9 +2,9 @@ import Card from './Card'
 
 const CardGridSection = ({ title, cards }) => {
 
-    const mappedCards = cards.map(card => {
-        <Card key={card.subtitle} card="card" />
-    })
+    const mappedCards = cards.map(card => (
+        <Card key={card.subtitle} {...card} />
+    ))
 
   return (
     <div>
