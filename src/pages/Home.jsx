@@ -3,24 +3,46 @@ import Hero from '../components/Hero'
 import ImageTextSection from '../components/ImageTextSection'
 
 const Home = () => {
+
+  const fillerContent = [
+    {
+      "image": "filler image",
+      "title": "Children’s Books",
+      "content": "Engaging and educational books for young minds."
+    },
+    {
+      "image": "filler image",
+      "title": "Watercolor Books",
+      "content": "Beautifully illustrated books for artists of all ages."
+    },
+    {
+      "image": "filler image",
+      "title": "Mindfulness Books",
+      "content": "Books to inspire mindfulness and relaxation."
+    }
+  ]
+
   return (
     <div>
       <Hero />
       <CardGridSection 
         title="Explore Our Books"
-        content="Discover books for children, teens, and adults."
+        cards={fillerContent}
       />
       <ImageTextSection 
+        image="filler image"
         title="Kid's Corner"
-        content="Coloring and Learning books for children."
+        content="Discover coloring and learning books designed just for kids!"
       />
       <CardGridSection 
         title="Teens & Adults"
-        content="Explore our collection of watercolor, mindfulness, and more."
+        cards={fillerContent}
       />
       <ImageTextSection 
+        image="filler image"
         title="About Roxy Dane"
         content="Meet Laura and her inspiration for creativity, Roxy."
+        reverse
       />
     </div>
   )
