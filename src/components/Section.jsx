@@ -1,8 +1,12 @@
-import React from 'react'
 
-const Section = () => {
+const Section = ({ title, content }) => {
   return (
-    <div>Section</div>
+    <div>
+      <h2>{title}</h2>
+      <p>
+        {content}
+      </p>
+    </div>
   )
 }
 
