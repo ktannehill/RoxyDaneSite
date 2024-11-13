@@ -7,17 +7,17 @@ const Home = () => {
   const fillerContent = [
     {
       "image": "filler image",
-      "title": "Children’s Books",
+      "subtitle": "Children’s Books",
       "content": "Engaging and educational books for young minds."
     },
     {
       "image": "filler image",
-      "title": "Watercolor Books",
+      "subtitle": "Watercolor Books",
       "content": "Beautifully illustrated books for artists of all ages."
     },
     {
       "image": "filler image",
-      "title": "Mindfulness Books",
+      "subtitle": "Mindfulness Books",
       "content": "Books to inspire mindfulness and relaxation."
     }
   ]

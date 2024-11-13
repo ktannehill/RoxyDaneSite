@@ -1,8 +1,18 @@
-import React from 'react'
+import Card from './Card'
 
-const CardGridSection = () => {
+const CardGridSection = ({ title, cards }) => {
+
+    const mappedCards = cards.map(card => (
+        <Card key={card.subtitle} {...card} />
+    ))
+
   return (
-    <div>CardGridSection</div>
+    <div>
+        <h2>{title}</h2>
+        <div className='card-grid'>
+            {mappedCards}
+        </div>
+    </div>
   )
 }
 
