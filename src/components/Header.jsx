@@ -1,4 +1,4 @@
-import logo from "../assets/images/roxyLogoHoriz-60.png"
+import logo from "../assets/images/logos/roxyLogoHoriz.svg"
 import "../styles/header-footer.css"
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
         <li>Teens & Adults</li>
         <li>About</li>
       </ul>
-      <img src={logo} alt="Roxy Dane logo" />
+      <img src={logo} alt="Roxy Dane logo" className="logo-sm" />
     </div>
   )
 }

@@ -29,6 +29,11 @@ body {
 
     background-color: var(--main-bg);
     color: var(--main-text);
+
+    /*! Logos */
+    --logo-sm: 50px;
+    --logo-md: 100px;
+    --logo-lg: 150px;
 }
 
 /*! Light/ Dark mode? */
@@ -63,4 +68,21 @@ body {
     margin: 0;
     flex: 1 1 auto;
     background-color: var(--main-bg);
+}
+
+/*! Logos */
+
+.logo-sm {
+  height: var(--logo-sm);
+  width: auto;
+}
+
+.logo-md {
+  height: var(--logo-md);
+  width: auto;
+}
+
+.logo-lg {
+  height: var(--logo-lg);
+  width: auto;
 }
