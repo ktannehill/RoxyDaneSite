@@ -1,15 +1,14 @@
+import '../styles/sections.css'
 
 const Card = ({ image, subtitle, content }) => {
 
-  console.log("hello")
-
   return (
-    <div>
+    <article>
       <p>Card Content</p>
       <p>{image}</p>
       <h3>{subtitle}</h3>
       <p>{content}</p>
-    </div>
+    </article>
   )
 }
 

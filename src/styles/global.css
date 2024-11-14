@@ -70,6 +70,13 @@ body {
     background-color: var(--main-bg);
 }
 
+.container {
+  width: 80%;
+  max-width: 1600px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
 /*! Logos */
 
 .logo-sm {

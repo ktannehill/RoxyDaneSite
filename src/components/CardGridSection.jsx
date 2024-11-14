@@ -1,4 +1,5 @@
 import Card from './Card'
+import '../styles/sections.css'
 
 const CardGridSection = ({ title, cards }) => {
 
@@ -7,7 +8,7 @@ const CardGridSection = ({ title, cards }) => {
     ))
 
   return (
-    <div>
+    <div className='container'>
         <h2>{title}</h2>
         <div className='card-grid'>
             {mappedCards}
