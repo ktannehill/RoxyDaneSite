@@ -1,15 +1,13 @@
+import '../styles/sections.css'
 
-const Card = ({ image, subtitle, content }) => {
-
-  console.log("hello")
+const Card = ({ image, subtitle, description, link }) => {
 
   return (
-    <div>
-      <p>Card Content</p>
-      <p>{image}</p>
+    <article>
+      <img src={image} alt={description} />
       <h3>{subtitle}</h3>
-      <p>{content}</p>
-    </div>
+      <p>{description}</p>
+    </article>
   )
 }
 
