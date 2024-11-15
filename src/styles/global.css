@@ -6,13 +6,14 @@ body {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: url("https://plus.unsplash.com/premium_photo-1726399099948-356ed0a1f454?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("https://images.unsplash.com/photo-1637589467890-1d0600734e12?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-position: fixed;
 }
 
 :root {
     --cream: #f9f3e2;
+    --cream-90: #f9f3e2EF;
     --cream-75: #f9f3e2BF;
     --cream-50: #f9f3e280;
     --beige: #ccbcac;
@@ -22,7 +23,7 @@ body {
     --coral: #d05661;
     --green: #5b6f4b;
 
-    --main-bg: var(--cream-75);
+    --main-bg: var(--cream-90);
     --main-text: var(--navy);
     --accent-1: var(--blue);
     --accent-2: var(--coral);
