@@ -43,17 +43,21 @@ article {
 
 .image-text-section {
     width: 100%;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
-    grid-template-columns: repeat(2, 1fr);
 }
 
-.reverse {
-
+.half-image, .half-text {
+    flex: 1 1 48%;
 }
 
 .half-image img {
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
+
+.reverse {
+    flex-direction: row-reverse;
 }

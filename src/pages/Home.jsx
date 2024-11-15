@@ -1,33 +1,19 @@
 import CardGridSection from '../components/CardGridSection'
 import Hero from '../components/Hero'
 import ImageTextSection from '../components/ImageTextSection'
+import homeData from '../assets/data/homeData'
 
 const Home = () => {
 
-  const fillerContent = [
-    {
-      "image": "filler image",
-      "subtitle": "Children’s Books",
-      "content": "Engaging and educational books for young minds."
-    },
-    {
-      "image": "filler image",
-      "subtitle": "Watercolor Books",
-      "content": "Beautifully illustrated books for artists of all ages."
-    },
-    {
-      "image": "filler image",
-      "subtitle": "Mindfulness Books",
-      "content": "Books to inspire mindfulness and relaxation."
-    }
-  ]
+  const exploreContent = homeData.find((section) => section.section === "explore").items
+  const teensAdultsContent = homeData.find((section) => section.section === "teens-adults").items
 
   return (
     <div>
       <Hero />
       <CardGridSection 
         title="Explore Our Books"
-        cards={fillerContent}
+        cards={exploreContent}
       />
       <ImageTextSection 
         image="filler image"
@@ -36,7 +22,7 @@ const Home = () => {
       />
       <CardGridSection 
         title="Teens & Adults"
-        cards={fillerContent}
+        cards={teensAdultsContent}
       />
       <ImageTextSection 
         image="filler image"
