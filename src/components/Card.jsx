@@ -4,8 +4,7 @@ const Card = ({ image, subtitle, description, link }) => {
 
   return (
     <article>
-      <p>Card Content</p>
-      <p>{image}</p>
+      <img src={image} alt={description} />
       <h3>{subtitle}</h3>
       <p>{description}</p>
     </article>
