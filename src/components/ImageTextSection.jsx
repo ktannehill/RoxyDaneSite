@@ -4,7 +4,7 @@ const ImageTextSection = ({ image, title, content, reverse }) => {
         <div className='container'>
             <div className={`image-text-section ${reverse ? "reverse" : ""}`}>
                 <div className="half-image">
-                    <p>{image}</p>
+                    <img src={image} alt={content} />
                 </div>
                 <div className="half-text">
                     <h2>{title}</h2>
