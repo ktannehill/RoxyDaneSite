@@ -3,8 +3,6 @@ import '../styles/sections.css'
 
 const CardGridSection = ({ title, cards }) => {
 
-  console.log(cards)
-
     const mappedCards = cards.map(card => (
         <Card key={card.subtitle} {...card} />
     ))
