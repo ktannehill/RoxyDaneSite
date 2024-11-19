@@ -2,6 +2,7 @@ import CardGridSection from '../components/CardGridSection'
 import Hero from '../components/Hero'
 import ImageTextSection from '../components/ImageTextSection'
 import homeData from '../assets/data/homeData'
+import authorPic from '../assets/images/author-Roxy.jpg'
 
 const Home = () => {
 
@@ -16,7 +17,7 @@ const Home = () => {
         cards={exploreContent}
       />
       <ImageTextSection 
-        image="filler image"
+        image="https://images.unsplash.com/photo-1620398722262-969d8f2bc875?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         title="Kid's Corner"
         content="Discover coloring and learning books designed just for kids!"
       />
@@ -25,7 +26,7 @@ const Home = () => {
         cards={teensAdultsContent}
       />
       <ImageTextSection 
-        image="filler image"
+        image={authorPic}
         title="About Roxy Dane"
         content="Meet Laura and her inspiration for creativity, Roxy."
         reverse
