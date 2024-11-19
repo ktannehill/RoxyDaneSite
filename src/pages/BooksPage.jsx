@@ -1,6 +1,6 @@
-import { Navigate, useNavigate, useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import booksData from '../assets/data/booksData'
-import Card from '../components/Card'
+import CardGridSection from '../components/CardGridSection'
 import '../styles/sections.css'
 import { useEffect } from 'react'
 
@@ -15,15 +15,18 @@ const BooksPage = () => {
     
   }, [type])
 
-  const books = booksData.filter(book => book.type === type)
-  
-  const categories = [...new Set(books.map(book => book.category))]
+  const categories = booksData[type]
 
-  console.log(categories)
+  console.log(typeof categories)
+
+  const mappedCategories = Object.entries(categories).map(([category, books]) => (
+    <CardGridSection key={category} title={category} cards={books} />
+  ))
 
   return (
     <div className='container'>
       <h1>{type === "kids" ? "Kids" : "Teens and Adults"} Books</h1>
+      {mappedCategories}
     </div>
   )
 }
