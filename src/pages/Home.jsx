@@ -26,6 +26,7 @@ const Home = () => {
         cards={teensAdultsContent}
       />
       <ImageTextSection 
+        id="about"
         image={authorPic}
         title="About Roxy Dane"
         content="Meet Laura and her inspiration for creativity, Roxy."
