@@ -5,8 +5,10 @@ const Card = ({ image, subtitle, description, link }) => {
   return (
     <article>
       <img src={image} alt={description} />
-      <h3>{subtitle}</h3>
-      <p>{description}</p>
+      <div className="content">
+        <h3>{subtitle}</h3>
+        <p>{description}</p>
+      </div>
     </article>
   )
 }
