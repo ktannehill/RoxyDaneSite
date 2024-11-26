@@ -3,9 +3,9 @@ import '../styles/sections.css'
 
 const CardGridSection = ({ title, cards }) => {
 
-    const mappedCards = cards.map(card => (
-        <Card key={card.subtitle} {...card} />
-    ))
+  const mappedCards = cards.map(card => (
+    <Card key={card.subtitle} {...card} />
+  ))
 
   return (
     <div className='container'>

@@ -6,7 +6,7 @@ const Card = ({ image, subtitle, description, link }) => {
 
   return (
     <article>
-      <img src={image} alt={description} />
+      <img src={image} alt={description} loading="lazy" />
       <div className="content">
         <h3>{subtitle}</h3>
         <p>{description}</p>
