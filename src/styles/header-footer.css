@@ -1,13 +1,16 @@
 /*! Header */
 
-#header {
-    background-color: var(--blue);
+#header, #footer {
     display: flex;
     margin: 0;
     padding: 1rem 3rem;
     justify-content: space-between;
     align-items: center;
     position: relative;
+}
+
+#header {
+    background-color: var(--blue);
 }
 
 .bg-img {
@@ -36,12 +39,6 @@
 
 #footer {
     background: var(--navy);
-    display: flex;
-    margin: 0;
-    padding: 1rem 3rem;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
 }
 
 #footer p {
