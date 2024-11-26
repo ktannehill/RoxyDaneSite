@@ -22,10 +22,10 @@ const Header = () => {
 
         <nav className={`nav-links ${isOpen ? "open" : ""}`}>
           <ul>
-            <Link to="/"><li>Home</li></Link>
-            <Link to="/books/kids"><li>Children</li></Link>
-            <Link to="/books/teensadults"><li>Teens & Adults</li></Link>
-            <Link to="/#about"><li>About</li></Link>
+            <Link to="/" onClick={() => setOpen(false)}><li>Home</li></Link>
+            <Link to="/books/kids" onClick={() => setOpen(false)}><li>Children</li></Link>
+            <Link to="/books/teensadults" onClick={() => setOpen(false)}><li>Teens & Adults</li></Link>
+            <Link to="/#about" onClick={() => setOpen(false)}><li>About</li></Link>
           </ul>
         </nav>
         
