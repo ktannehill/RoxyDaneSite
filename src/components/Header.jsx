@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom'
+import { Sling as Hamburger } from "hamburger-react";
 import logo from "../assets/images/logos/roxyLogoHoriz.svg"
 import "../styles/header-footer.css"
+import { useState } from 'react';
 
 const Header = () => {
+  const [isOpen, setOpen] = useState(false)
+
   return (
     <header id="header">
       <img 
@@ -10,13 +14,23 @@ const Header = () => {
         className="bg-img" 
         loading="lazy"
       />
-      <ul>
-        <Link to="/"><li>Home</li></Link>
-        <Link to="/books/kids"><li>Children</li></Link>
-        <Link to="/books/teensadults"><li>Teens & Adults</li></Link>
-        <Link to="/#about"><li>About</li></Link>
-      </ul>
-      <img src={logo} alt="Roxy Dane logo" className="logo-sm" />
+
+      <div>
+        <div className="hamburger">
+          <Hamburger toggled={isOpen} toggle={setOpen} />
+        </div>
+
+        <nav className={`nav-links ${isOpen ? "open" : ""}`}>
+          <ul>
+            <Link to="/"><li>Home</li></Link>
+            <Link to="/books/kids"><li>Children</li></Link>
+            <Link to="/books/teensadults"><li>Teens & Adults</li></Link>
+            <Link to="/#about"><li>About</li></Link>
+          </ul>
+        </nav>
+        
+        <img src={logo} alt="Roxy Dane logo" className="logo-sm" />
+      </div>
     </header>
   )
 }

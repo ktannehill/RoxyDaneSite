@@ -73,7 +73,6 @@ body {
 
 .container {
   width: 90%;
-  max-width: 1600px;
   margin: 5rem auto;
 }
 
@@ -98,7 +97,7 @@ body {
 
 /*! Media query for tablet */
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
   .container {
     width: 80%;
     max-width: 1600px;
