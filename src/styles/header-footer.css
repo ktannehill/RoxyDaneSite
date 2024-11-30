@@ -20,53 +20,37 @@
 
 #header > div, #footer div {
     width: 90%;
-    margin: 1rem auto;
+    margin: 0 auto;
     display: flex;
-    padding: 0;
+    padding: 1rem 0;
     justify-content: space-between;
     align-items: center;
 }
 
 .hamburger {
     display: block; 
-}
-
-.nav-links ul {
-    position: absolute;
-    top: 65px;
-    left: 0;
-    right: 0;
-    max-height: 0%;
-    overflow: hidden;
-    /* transition: max-height 0.3s ease-in-out; */
-    will-change: max-height;
-    background-color: var(--blue);
     z-index: 100;
 }
 
-.nav-links.open ul {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 2rem;
-    max-height: 500px;
-    width: 70%;
-    /* transition: max-height 0.3s ease-in-out; */
+.nav-links {
+    background-color: var(--blue);
+    height: 100%;
 }
 
-.nav-links li {
-    list-style: none;
-    padding: 0;
-}
-
-.nav-links a {
+.nav-links a, .MuiBox-root a {
     text-decoration: none;
     color: black;
     font-size: 1.25rem;
+    padding-right: 1rem;
 }
 
 .nav-links a:hover {
     cursor: pointer;
+}
+
+.nav-links li {
+    list-style-type: none;
+    margin: 0;
 }
 
 /*! Footer */
@@ -84,30 +68,20 @@
 
 /*! Media query for tablet */
 
+@media (min-width: 600px) {
+    
+}
+
 @media (min-width: 700px) {
     .hamburger {
         display: none;
-    }
-
-    .nav-links ul {
-        display: flex; 
-        position: static; 
-        flex-direction: row; 
-        gap: 1.5rem;
-        padding: 0;
-        width: 100%;
-        max-height: 100px;
     }
   
 }
 
 @media (min-width: 800px) {
-    #header > div, #footer div {
-        width: 80%;
-    }
-
-    .navlinks ul {
-        gap: 2rem;
+    .nav-links a, .MuiBox-root a {
+        padding-right: 2rem;
     }
   
 }
@@ -115,5 +89,7 @@
 /*! Media query for desktop */
 
 @media (min-width: 1000px) {
-
+    #header > div, #footer div {
+        width: 80%;
+    }
 }

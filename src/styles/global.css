@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
@@ -97,18 +98,14 @@ body {
 
 /*! Media query for tablet */
 
-@media (min-width: 1000px) {
-  .container {
-    width: 80%;
-    max-width: 1600px;
-    margin: 7rem auto;
-  }
+@media (min-width: 700px) {
+  
 
 }
 
 /*! Media query for desktop */
 
-@media (min-width: 1024px) {
+@media (min-width: 1000px) {
   .container {
     width: 80%;
     max-width: 1600px;

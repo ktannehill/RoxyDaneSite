@@ -24,8 +24,10 @@ const BooksPage = () => {
   ))
 
   return (
-    <div className='container'>
-      <h1>{type === "kids" ? "Kids" : "Teens and Adults"} Books</h1>
+    <div>
+      <h1  className='container'>
+        {type === "kids" ? "Kids" : "Teens and Adults"} Books
+      </h1>
       {mappedCategories}
     </div>
   )
