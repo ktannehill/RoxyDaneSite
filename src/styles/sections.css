@@ -37,18 +37,23 @@ article {
     max-width: 600px;
     min-width: 200px;
     flex: 1;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 article img {
     width: 100%;
-    height: 300px;
+    max-height: 80vh;
     object-fit: cover;
+    aspect-ratio: 2 / 3;
 }
 
 article .content {
     background-color: var(--beige);
     padding: 1rem 2rem;
     margin-top: 1rem;
+    flex: 1;
 }
 
 /*! Image Text Section */
@@ -68,24 +73,10 @@ article .content {
     object-fit: cover;
     width: 100%;
     height: 100%;
+    aspect-ratio: 3 / 2;
 }
-
-.reverse {
-    flex-direction: row-reverse;
-}
-
-
 
 /*! Media query for tablet */
-
-@media (min-width: 600px) {
-    .image-text-section {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        gap: 1rem;
-    }
-}
 
 @media (min-width: 700px) {
     .card-grid {
@@ -95,21 +86,47 @@ article .content {
         grid-template-columns: repeat(3, 1fr);
     }
 
-}
-  
-  /*! Media query for desktop */
-  
-  @media (min-width: 1000px) {
-    .card-grid {
-        width: 100%;
-        display: grid;
-        gap: 1rem;
-        grid-template-columns: repeat(3, 1fr);
+    article {
+        margin-bottom: 1rem;
     }
 
+    article img {
+        width: 100%;
+        object-fit: cover;
+        aspect-ratio: 2 / 3;
+        max-height: 70vh;
+    }
+
+    .image-text-section {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+    }
+
+}
+  
+/*! Media query for desktop */
+
+@media (min-width: 1000px) {
     #hero div {
         left: 10%;
         right: 10%;
+    }
+  
+}
+
+@media (min-width: 1200px) {
+    .card-grid {
+        gap: 2rem;
+    }
+
+    .image-text-section {
+        gap: 2rem;
     }
   
 }

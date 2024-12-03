@@ -10,6 +10,7 @@ body {
   background-image: url("https://images.unsplash.com/photo-1637589467890-1d0600734e12?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-position: fixed;
+  padding-right: 0 !important;
 }
 
 :root {
@@ -77,6 +78,11 @@ body {
   margin: 5rem auto;
 }
 
+.dark {
+  background-color: var(--beige);
+  padding: 0.1px 0;
+}
+
 /*! Logos */
 
 .logo-sm {
@@ -92,6 +98,23 @@ body {
 .logo-lg {
   height: var(--logo-lg);
   width: auto;
+}
+
+
+
+/*! General */
+
+button {
+  border: 0;
+  padding: 0.5rem 1rem;
+  background-color: var(--blue);
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+button:hover {
+  background-color: var(--coral);
+  cursor: pointer;
 }
 
 
