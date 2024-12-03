@@ -24,6 +24,7 @@ const Home = () => {
       <CardGridSection 
         title="Teens & Adults"
         cards={teensAdultsContent}
+        dark
       />
       <ImageTextSection 
         id="about"

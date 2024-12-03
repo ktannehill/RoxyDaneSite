@@ -7,9 +7,7 @@ const ErrorPage = () => {
       <Header />
       <div id="outlet">
         <div className='container'>
-          <h2>
-            Oops!
-          </h2>
+          <h2>Oops!</h2>
           <p>
             This page hasn't been colored in yet!
           </p>

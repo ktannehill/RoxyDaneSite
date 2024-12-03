@@ -78,6 +78,11 @@ body {
   margin: 5rem auto;
 }
 
+.dark {
+  background-color: var(--beige);
+  padding: 0.1px 0;
+}
+
 /*! Logos */
 
 .logo-sm {
@@ -93,6 +98,23 @@ body {
 .logo-lg {
   height: var(--logo-lg);
   width: auto;
+}
+
+
+
+/*! General */
+
+button {
+  border: 0;
+  padding: 0.5rem 1rem;
+  background-color: var(--blue);
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+button:hover {
+  background-color: var(--coral);
+  cursor: pointer;
 }
 
 
