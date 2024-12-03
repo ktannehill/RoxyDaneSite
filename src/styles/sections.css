@@ -38,6 +38,8 @@ article {
     min-width: 200px;
     flex: 1;
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 article img {
@@ -51,6 +53,7 @@ article .content {
     background-color: var(--beige);
     padding: 1rem 2rem;
     margin-top: 1rem;
+    flex: 1;
 }
 
 /*! Image Text Section */
@@ -84,7 +87,7 @@ article .content {
     }
 
     article {
-        margin-bottom: 0;
+        margin-bottom: 1rem;
     }
 
     article img {
