@@ -40,7 +40,7 @@ const books = {
                 image: kidslearningscissor,
                 type: "kids",
                 category: "learning",
-                description: "A short description of Book",
+                description: "Help Pre-K kids develop fine motor skills and creativity with simple, fun cutting activities that make learning scissors both safe and enjoyable.",
                 link: "https://www.amazon.com/Scissor-Skills-Activity-Book-Kids/dp/B0DG61JD8Y?ref_=ast_author_dp_rw&dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQjXXzhTzhTCapJL73sFewRkiYpy8vTDkbxFg1GPcwPNY.7LWvnMB4hueLuNL3x6vqYGK9ujFMvoT9qZzOX_oJ_u4&dib_tag=AUTHOR"
             },
             {
@@ -49,7 +49,7 @@ const books = {
                 image: kidslearningtracing,
                 type: "kids",
                 category: "learning",
-                description: "A short description of Book",
+                description: "Kids will master tracing letters A-Z and numbers 1-10 while building fine motor skills with fun, interactive activities.",
                 link: "https://www.amazon.com/First-Tracing-Workbook-Letters-Numbers/dp/B0DG5KS8JM?ref_=ast_author_dp_rw&dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQjXXzhTzhTCapJL73sFewRkiYpy8vTDkbxFg1GPcwPNY.7LWvnMB4hueLuNL3x6vqYGK9ujFMvoT9qZzOX_oJ_u4&dib_tag=AUTHOR"
             },
             {
@@ -58,7 +58,7 @@ const books = {
                 image: kidslearningwrite,
                 type: "kids",
                 category: "learning",
-                description: "A short description of Book",
+                description: "Pre-K kids will trace letters and learn sight words, boosting writing and reading skills through fun, engaging exercises.",
                 link: "https://www.amazon.com/My-First-Learn-Write-Workbook/dp/B0DG2Q2LPM?ref_=ast_author_dp_rw&dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQjXXzhTzhTCapJL73sFewRkiYpy8vTDkbxFg1GPcwPNY.7LWvnMB4hueLuNL3x6vqYGK9ujFMvoT9qZzOX_oJ_u4&dib_tag=AUTHOR"
             }
         ],
@@ -69,7 +69,7 @@ const books = {
                 image: kidscoloringdinosaur,
                 type: "kids",
                 category: "coloring",
-                description: "A short description of Book",
+                description: "Color 100 pages of cute baby dinosaurs and bring prehistoric jungles to life. A fun gift for kids of all ages!",
                 link: "https://www.amazon.com/Roxys-Baby-Dinosaurs-Coloring-Book/dp/B0D371Z3CM?ref_=ast_author_dp_rw&dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQjXXzhTzhTCapJL73sFewRkiYpy8vTDkbxFg1GPcwPNY.7LWvnMB4hueLuNL3x6vqYGK9ujFMvoT9qZzOX_oJ_u4&dib_tag=AUTHOR"
             },
             {
@@ -78,7 +78,7 @@ const books = {
                 image: kidscoloringmonstertruck,
                 type: "kids",
                 category: "coloring",
-                description: "A short description of Book",
+                description: "Rev up creativity with 100 pages of extreme monster trucks, ready for color in this action-packed truckyard adventure.",
                 link: "https://www.amazon.com/Roxys-Monster-Truck-Coloring-Book/dp/B0D33V1P7H?ref_=ast_author_dp_rw&dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQjXXzhTzhTCapJL73sFewRkiYpy8vTDkbxFg1GPcwPNY.7LWvnMB4hueLuNL3x6vqYGK9ujFMvoT9qZzOX_oJ_u4&dib_tag=AUTHOR"
             },
             {
@@ -87,7 +87,7 @@ const books = {
                 image: kidscoloringprincess,
                 type: "kids",
                 category: "coloring",
-                description: "A short description of Book",
+                description: "Design beautiful princesses for the ball, creating royal looks fit for castles with your creativity and favorite colors.",
                 link: "https://www.amazon.com/Roxys-Pretty-Princesses-Coloring-Book/dp/B0D3JCD5GX?ref_=ast_author_dp_rw&dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQjXXzhTzhTCapJL73sFewRkiYpy8vTDkbxFg1GPcwPNY.7LWvnMB4hueLuNL3x6vqYGK9ujFMvoT9qZzOX_oJ_u4&dib_tag=AUTHOR"
             },
             {
@@ -96,7 +96,7 @@ const books = {
                 image: kidscoloringprincess2,
                 type: "kids",
                 category: "coloring",
-                description: "A short description of Book",
+                description: "Create stunning looks for new princesses, each ready to shine at the royal ball with your imaginative designs.",
                 link: "https://www.amazon.com/Roxys-Pretty-Princesses-Coloring-Book/dp/B0D4KGT8QQ?ref_=ast_author_dp_rw&dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQjXXzhTzhTCapJL73sFewRkiYpy8vTDkbxFg1GPcwPNY.7LWvnMB4hueLuNL3x6vqYGK9ujFMvoT9qZzOX_oJ_u4&dib_tag=AUTHOR"
             },
             {
@@ -105,7 +105,7 @@ const books = {
                 image: kidscoloringunicorn,
                 type: "kids",
                 category: "coloring",
-                description: "A short description of Book",
+                description: "Bring magical unicorns to life with your colors and creativity in this enchanting coloring adventure for kids of all ages.",
                 link: "https://www.amazon.com/Magical-Unicorns-Coloring-Book-Kids/dp/B0D33V9BTH?ref_=ast_author_dp_rw&dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQjXXzhTzhTCapJL73sFewRkiYpy8vTDkbxFg1GPcwPNY.7LWvnMB4hueLuNL3x6vqYGK9ujFMvoT9qZzOX_oJ_u4&dib_tag=AUTHOR"
             },
         ],
@@ -116,7 +116,7 @@ const books = {
                 image: kidsbookstar,
                 type: "kids",
                 category: "book",
-                description: "A short description of Book",
+                description: "Join Luna on a magical journey to overcome her fear of the dark, embrace her glow, and discover friendship.",
                 link: "https://www.amazon.com/Little-Star-That-Afraid-Dark/dp/B0DKCZ6G9G?ref_=ast_author_dp_rw&dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQjXXzhTzhTCapJL73sFewRkiYpy8vTDkbxFg1GPcwPNY.7LWvnMB4hueLuNL3x6vqYGK9ujFMvoT9qZzOX_oJ_u4&dib_tag=AUTHOR"
             }
         ]
