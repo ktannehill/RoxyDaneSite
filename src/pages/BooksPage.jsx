@@ -17,8 +17,6 @@ const BooksPage = () => {
 
   const categories = booksData[type]
 
-  console.log(typeof categories)
-
   const mappedCategories = Object.entries(categories).map(([category, books]) => (
     <CardGridSection key={category} title={category} cards={books} />
   ))
