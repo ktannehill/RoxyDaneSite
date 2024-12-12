@@ -7,7 +7,10 @@ const Hero = () => {
       <div>
         <h1>Roxy Dane</h1>
         <p>
-          Doggo ipsum doge h*ck shibe smol very jealous pupper borking doggo pats
+          Explore books for every age - watercolor templates, creative coloring, learning, and mindfulness.
+        </p>
+        <p>
+          Spark creativity, fun, and relaxation today!
         </p>
       </div>
     </section>
