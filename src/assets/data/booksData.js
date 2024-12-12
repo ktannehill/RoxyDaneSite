@@ -33,7 +33,7 @@ import inkhappystress from "../images/books/inkhappy-stress.jpg"
 
 const books = {
     kids: {
-        learning: [
+        Learning: [
             {
                 id: 1,
                 title: "Scissor Skills Activity Book For Kids",
@@ -62,7 +62,7 @@ const books = {
                 link: "https://www.amazon.com/My-First-Learn-Write-Workbook/dp/B0DG2Q2LPM?ref_=ast_author_dp_rw&dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQjXXzhTzhTCapJL73sFewRkiYpy8vTDkbxFg1GPcwPNY.7LWvnMB4hueLuNL3x6vqYGK9ujFMvoT9qZzOX_oJ_u4&dib_tag=AUTHOR"
             }
         ],
-        coloring: [
+        Coloring: [
             {
                 id: 4,
                 title: "Baby Dinosaurs Coloring Book",
@@ -109,7 +109,7 @@ const books = {
                 link: "https://www.amazon.com/Magical-Unicorns-Coloring-Book-Kids/dp/B0D33V9BTH?ref_=ast_author_dp_rw&dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQjXXzhTzhTCapJL73sFewRkiYpy8vTDkbxFg1GPcwPNY.7LWvnMB4hueLuNL3x6vqYGK9ujFMvoT9qZzOX_oJ_u4&dib_tag=AUTHOR"
             },
         ],
-        other: [
+        More: [
             {
                 id: 9,
                 title: "The Little Star That Was Afraid of the Dark",
@@ -122,7 +122,7 @@ const books = {
         ]
     },
     teensadults: {
-        watercolor: [
+        Watercolor: [
             {
                 id: 10,
                 title: "Watercolor Templates: Floral and Botanicals",
@@ -268,7 +268,7 @@ const books = {
                 link: "https://www.amazon.com/Watercolor-Templates-Village-Streets-Roxy/dp/B0D9QLLWWT?dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQrvHt2dSaRs-_g5PZTavP3HQ84SxAx0dXQcbCvX3dSh8.1YcJpFTXgy3-GHoYwgLmrNXYPf8srMb6QWyaDiyRvAk&dib_tag=AUTHOR"
             }
         ],
-        mindfulness: [
+        Mindfulness: [
             {
                 id: 27,
                 title: "Empower Daily",
@@ -324,7 +324,7 @@ const books = {
                 link: "https://www.amazon.com/Roxys-Ink-Happy-Anxiety-Coloring/dp/B0D9QP4P9Z?dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQrvHt2dSaRs-_g5PZTavP3HQ84SxAx0dXQcbCvX3dSh8.1YcJpFTXgy3-GHoYwgLmrNXYPf8srMb6QWyaDiyRvAk&dib_tag=AUTHOR"
             }
         ],
-        other: [
+        More: [
             {
                 id: 26,
                 title: "Sugar Skulls",
