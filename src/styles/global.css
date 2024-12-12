@@ -3,16 +3,6 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://images.unsplash.com/photo-1637589467890-1d0600734e12?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-  background-size: cover;
-  background-position: fixed;
-  padding-right: 0 !important;
-}
-
 :root {
   --cream: #f9f3e2;
   --cream-90: #f9f3e2EF;
@@ -23,6 +13,7 @@ body {
   --blue: #3ea0d2;
   --navy: #293444;
   --taupe: #574846;
+  --brown: #2C2423;
   --coral: #d05661;
   --green: #5b6f4b;
 
@@ -38,6 +29,17 @@ body {
   --logo-sm: 50px;
   --logo-md: 100px;
   --logo-lg: 150px;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://images.unsplash.com/photo-1637589467890-1d0600734e12?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: fixed;
+  padding-right: 0 !important;
+  color: var(--brown);
 }
 
 /*! Light/ Dark mode? */
@@ -111,11 +113,13 @@ button {
   background-color: var(--blue);
   font-size: 1.1rem;
   margin: 1rem 0;
+  transition: 0.3s ease-in-out;
 }
 
 button:hover {
   background-color: var(--coral);
   cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
 
