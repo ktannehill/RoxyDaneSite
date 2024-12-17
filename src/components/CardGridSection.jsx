@@ -6,7 +6,7 @@ import '../styles/sections.css'
 const CardGridSection = ({ title, cards, link, dark }) => {
 
   const mappedCards = cards.map(card => (
-    <Card key={card.subtitle} {...card} dark={dark} />
+    <Card key={card.title || card.subtitle} {...card} dark={dark} />
   ))
 
   return (

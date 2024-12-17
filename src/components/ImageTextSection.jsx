@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Button from './Button'
 import { Link } from 'react-router-dom'
 
@@ -10,22 +11,14 @@ const ImageTextSection = ({ image, title, subtitles, content, link, reverse }) =
                 </div>
                 <div className="half-text">
                     <h2>{title}</h2>
-                    {subtitles && subtitles.length > 0 ? (
-                        <>
-                        {subtitles.map((subtitle, index) => (
-                            <aside key={index}>
-                                <h3>{subtitle}</h3>
-                                <p>{content[index]}</p>
-                            </aside>
-                        ))}
-                        </>
-                    ) : (
-                        <>
-                        {content.map((p, index) => (
-                            <p key={index}>{p}</p>
-                        ))}
-                        </>
-                    )}
+
+                    {content.map((text, index) => (
+                        <aside key={index}>
+                            {subtitles.length > 0 && <h3>{subtitles[index]}</h3>}
+                            <p>{text}</p>
+                        </aside>
+                    ))}
+                    
                     {link?.length > 0 && <Link to={link}><Button text="View more" /></Link>}
                 </div>
             </div>
