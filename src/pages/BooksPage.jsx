@@ -1,19 +1,22 @@
-import { useNavigate, useParams } from 'react-router-dom'
+import { useNavigate, useParams, useOutletContext } from 'react-router-dom'
+import { useEffect } from 'react'
 import booksData from '../assets/data/booksData'
 import CardGridSection from '../components/CardGridSection'
 import '../styles/sections.css'
-import { useEffect } from 'react'
 
 const BooksPage = () => {
   const { type } = useParams()
   const navigate = useNavigate()
+  const { scrollToTop } = useOutletContext()
 
   useEffect(() => {
     if(type !== "kids" && type !== "teensadults") {
       navigate("/")
     }
+
+    scrollToTop()
     
-  }, [type])
+  }, [type, scrollToTop])
 
   const categories = booksData[type]
 
