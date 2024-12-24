@@ -1,17 +1,9 @@
-import { useEffect, useRef } from "react"
-import { useLocation, Outlet } from "react-router-dom"
+import { Outlet } from "react-router-dom"
 import Header from './Header'
 import Footer from './Footer'
+import ScrollToAnchor from "./ScrollToAnchor"
 
 const Layout = () => {
-  const aboutRef = useRef(null)
-  const location = useLocation()
-
-  useEffect(() => {
-    if (location.hash === '#about' && aboutRef.current) {
-      aboutRef.current.scrollIntoView({behavior: 'smooth'})
-    }
-  }, [location.hash])
 
   const scrollToTop = () => {
     window.scrollTo({top: 0, behavior: 'smooth'})
@@ -21,11 +13,10 @@ const Layout = () => {
     <div id="flex">
         <Header />
         <main id="outlet">
-          <div ref={aboutRef}>
-            <Outlet context={{ scrollToTop }} />
-          </div>
+          <Outlet context={{ scrollToTop }} />
         </main>
         <Footer />
+        <ScrollToAnchor />
     </div>
   )
 }

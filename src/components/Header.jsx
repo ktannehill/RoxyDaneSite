@@ -37,7 +37,7 @@ const Header = (props) => {
       <Divider />
       <List>
         {navItems.map((item) => (
-          <Link to={item.path} key={item.title}>
+          <Link to={item.path} key={item.title}> 
             <ListItem disablePadding>
               <ListItemButton sx={{ textAlign: 'left' }}>
                 {item.title}

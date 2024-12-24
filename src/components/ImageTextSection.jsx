@@ -2,7 +2,7 @@
 import Button from './Button'
 import { Link } from 'react-router-dom'
 
-const ImageTextSection = ({ image, title, subtitles, content, link, reverse }) => {
+const ImageTextSection = ({ image, title, subtitles, content, link, reverse }, ref) => {
     return (
         <div className='container'>
             <div className={`image-text-section ${reverse ? "reverse" : ""}`}>

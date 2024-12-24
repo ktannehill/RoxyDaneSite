@@ -2,7 +2,7 @@ import App from "./App"
 import Error from "./pages/ErrorPage"
 import Home from "./pages/Home"
 import BooksPage from "./pages/BooksPage"
-import About from "./pages/About"
+// import About from "./pages/About"
 
 const routes = [
     {
@@ -19,10 +19,10 @@ const routes = [
                 path: "/books/:type",
                 element: <BooksPage />
             },
-            {
-                path: "/about",
-                element: <About />
-            }
+            // {
+            //     path: "/about",
+            //     element: <About />
+            // }
         ]
     }
 ]

@@ -31,14 +31,16 @@ const Home = () => {
         link="/books/teensadults"
         dark
       />
-      <ImageTextSection 
-        id="about"
-        image={authorPic}
-        title="About Roxy Dane"
-        {...aboutContent}
-        link=""
-        reverse
-      />
+      <div>
+        <ImageTextSection 
+          id="about"
+          image={authorPic}
+          title="About Roxy Dane"
+          {...aboutContent}
+          link=""
+          reverse
+        />
+      </div>
     </div>
   )
 }
