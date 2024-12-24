@@ -12,7 +12,7 @@ const Home = () => {
   const aboutContent = homeData.find((section) => section.section === "about")
 
   return (
-    <div>
+    <>
       <Hero />
       <CardGridSection 
         title="Explore Our Books"
@@ -31,17 +31,15 @@ const Home = () => {
         link="/books/teensadults"
         dark
       />
-      <div>
-        <ImageTextSection 
-          id="about"
-          image={authorPic}
-          title="About Roxy Dane"
-          {...aboutContent}
-          link=""
-          reverse
-        />
-      </div>
-    </div>
+      <ImageTextSection 
+        id="about"
+        image={authorPic}
+        title="About Roxy Dane"
+        {...aboutContent}
+        link=""
+        reverse
+      />
+    </>
   )
 }
 

@@ -1,7 +1,6 @@
 import { Outlet } from "react-router-dom"
 import Header from './Header'
 import Footer from './Footer'
-import ScrollToAnchor from "./ScrollToAnchor"
 
 const Layout = () => {
 
@@ -16,7 +15,6 @@ const Layout = () => {
           <Outlet context={{ scrollToTop }} />
         </main>
         <Footer />
-        <ScrollToAnchor />
     </div>
   )
 }
