@@ -12,7 +12,7 @@ const Home = () => {
   const aboutContent = homeData.find((section) => section.section === "about")
 
   return (
-    <div>
+    <>
       <Hero />
       <CardGridSection 
         title="Explore Our Books"
@@ -39,7 +39,7 @@ const Home = () => {
         link=""
         reverse
       />
-    </div>
+    </>
   )
 }
 

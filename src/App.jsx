@@ -1,9 +1,13 @@
 import Layout from "./components/Layout"
+import ScrollToAnchor from "./components/ScrollToAnchor"
 
 function App() {
 
-  return (
-    <Layout />
+  return (      
+    <>
+      <Layout />
+      <ScrollToAnchor />
+    </>
   )
 }
 
