@@ -153,6 +153,13 @@ article .content {
         gap: 1rem;
         grid-template-columns: repeat(3, 1fr);
     }
+    
+    .book-grid {
+        width: 100%;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
 
     article {
         margin-bottom: 1rem;

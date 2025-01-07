@@ -11,13 +11,13 @@ const CardGridSection = ({ title, cards, link, dark }) => {
 
   return (
     <div className={`${dark ? "dark" : ""}`}>
-    <div className='container'>
-        <h2>{title}</h2>
-        <div className='card-grid'>
-            {mappedCards}
-        </div>
-      {link?.length > 0 && <Link to={link}><Button text="View more" /></Link>}
-    </div>
+      <div className='container'>
+          <h2>{title}</h2>
+          <div className={link?.length > 0 ? 'card-grid' : 'book-grid'}>
+              {mappedCards}
+          </div>
+        {link?.length > 0 && <Link to={link}><Button text="View more" /></Link>}
+      </div>
     </div>
   )
 }
