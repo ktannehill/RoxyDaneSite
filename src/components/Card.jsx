@@ -19,7 +19,6 @@ const Card = ({ image, subtitle, description, link, dark }) => {
       <div className={`${dark ? "" : "content"}`}>
         <h3>{subtitle}</h3>
         <p>{description}</p>
-        {/* {link?.length > 0 && <Link to={link} target="_blank" rel="noopener noreferrer"><Button text="View more" /></Link>} */}
       </div>
     </article>
   )
