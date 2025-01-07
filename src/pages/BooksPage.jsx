@@ -10,12 +10,10 @@ const BooksPage = () => {
   const { scrollToTop } = useOutletContext()
 
   useEffect(() => {
-    if(type !== "kids" && type !== "teensadults") {
+    if(type !== "kids" && type !== "teens" && type !== "adults") {
       navigate("/")
     }
-
     scrollToTop()
-    
   }, [type, scrollToTop])
 
   const categories = booksData[type]
@@ -24,10 +22,12 @@ const BooksPage = () => {
     <CardGridSection key={category} title={category} cards={books} />
   ))
 
+  const typeTitle = type.charAt(0).toUpperCase() + type.slice(1)
+
   return (
     <div>
       <h1  className='container'>
-        {type === "kids" ? "Kids" : "Teens and Adults"} Books
+        {typeTitle} Books
       </h1>
       {mappedCategories}
     </div>

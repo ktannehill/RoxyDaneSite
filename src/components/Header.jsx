@@ -23,7 +23,8 @@ const Header = (props) => {
   const navItems = [
     {title: 'Home', path: '/'}, 
     {title: 'Children', path: '/books/kids'}, 
-    {title: 'Teens & Adults', path: '/books/teensadults'}, 
+    {title: 'Teens', path: '/books/teens'}, 
+    {title: 'Adults', path: '/books/adults'}, 
     {title: 'About', path: '/#about'}
   ];
 
