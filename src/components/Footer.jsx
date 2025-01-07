@@ -11,7 +11,7 @@ const Footer = () => {
           className="bg-img" 
           loading="lazy"
         />
-        <p>Made with <FaHeart /> && <FaCoffee /> by Kat Tannehill © 2024</p>
+        <p>Made with <FaHeart /> && <FaCoffee /> by <a href="https://www.kat-tannehill.dev/" target="_blank" rel="noopener noreferrer">Kat Tannehill</a> © 2024</p>
       </div>
     </footer>
   )
