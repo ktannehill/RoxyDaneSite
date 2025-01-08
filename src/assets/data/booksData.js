@@ -121,7 +121,76 @@ const books = {
             }
         ]
     },
-    teensadults: {
+    teens: {
+        Mindfulness: [
+            {
+                id: 27,
+                title: "Empower Daily",
+                image: affirmationempower,
+                type: "teensadults",
+                category: "affirmation",
+                description: "Transform your mindset with uplifting daily pages that inspire positive thinking and bring joy to your life and others.",
+                link: "https://www.amazon.com/Empower-Daily-Attuing-mindset-positive/dp/B0D4J9KBLT?ref_=ast_author_dp_rw&dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQrvHt2dSaRs-_g5PZTavP3HQ84SxAx0dXQcbCvX3dSh8.1YcJpFTXgy3-GHoYwgLmrNXYPf8srMb6QWyaDiyRvAk&dib_tag=AUTHOR"
+            },
+            {
+                id: 28,
+                title: "Ink Happy - Mood Adjusting Motivations",
+                image: inkhappymotivation,
+                type: "teensadults",
+                category: "mindful",
+                description: "Add humor to your relaxation with sarcastic sayings and intricate designs. Perfect for unwinding with a laugh and creativity.",
+                link: "https://www.amazon.com/Roxys-Happy-Adjusting-Motivations-Coloring/dp/B0DC6ZSMKJ?dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQrvHt2dSaRs-_g5PZTavP3HQ84SxAx0dXQcbCvX3dSh8.1YcJpFTXgy3-GHoYwgLmrNXYPf8srMb6QWyaDiyRvAk&dib_tag=AUTHOR"
+            },
+            {
+                id: 29,
+                title: "Ink Happy - Relax and Color On",
+                image: inkhappyrelax,
+                type: "teensadults",
+                category: "mindful",
+                description: "Relax and unwind with beautifully rendered butterflies, flowers, and birds. Color your stress away with your favorite coloring tools.",
+                link: "https://www.amazon.com/Roxys-Ink-Happy-Relax-Coloring/dp/B0D76SPVKX?dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQrvHt2dSaRs-_g5PZTavP3HQ84SxAx0dXQcbCvX3dSh8.1YcJpFTXgy3-GHoYwgLmrNXYPf8srMb6QWyaDiyRvAk&dib_tag=AUTHOR"
+            },
+            {
+                id: 30,
+                title: "Ink Happy - Relax and Color On Vol2",
+                image: inkhappyrelax2,
+                type: "teensadults",
+                category: "mindful",
+                description: "De-stress with intricate animal mandalas. Color your way to tranquility and immerse yourself in a peaceful, artistic world.",
+                link: "https://www.amazon.com/Roxys-Ink-Happy-Coloring-Mandalas/dp/B0D77JTYVT?ref_=ast_author_dp_rw&dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQrvHt2dSaRs-_g5PZTavP3HQ84SxAx0dXQcbCvX3dSh8.1YcJpFTXgy3-GHoYwgLmrNXYPf8srMb6QWyaDiyRvAk&dib_tag=AUTHOR"
+            },
+            {
+                id: 31,
+                title: "Ink Happy - Relax and Renew",
+                image: inkhappyrenew,
+                type: "teensadults",
+                category: "mindful",
+                description: "Find peace and joy with soothing mandalas and patterns. This coloring book is a retreat for creativity and relaxation.",
+                link: "https://www.amazon.com/Roxys-Ink-Happy-relaxing-coloring/dp/B0DBQ5SXM4?dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQrvHt2dSaRs-_g5PZTavP3HQ84SxAx0dXQcbCvX3dSh8.1YcJpFTXgy3-GHoYwgLmrNXYPf8srMb6QWyaDiyRvAk&dib_tag=AUTHOR"
+            },
+            {
+                id: 32,
+                title: "Ink Happy: Anxiety and Stress Relief",
+                image: inkhappystress,
+                type: "teensadults",
+                category: "mindful",
+                description: "Settle into a meditative coloring experience with beautifully rendered mandalas. Doodle your worries away for a relaxing escape.",
+                link: "https://www.amazon.com/Roxys-Ink-Happy-Anxiety-Coloring/dp/B0D9QP4P9Z?dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQrvHt2dSaRs-_g5PZTavP3HQ84SxAx0dXQcbCvX3dSh8.1YcJpFTXgy3-GHoYwgLmrNXYPf8srMb6QWyaDiyRvAk&dib_tag=AUTHOR"
+            }
+        ],
+        More: [
+            {
+                id: 26,
+                title: "Sugar Skulls",
+                image: coloringsugarskulls,
+                type: "teensadults",
+                category: "coloring",
+                description: "Celebrate life with bright, unique sugar skull designs. Color your way through Day of the Dead traditions and de-stress.",
+                link: "https://www.amazon.com/Roxys-Sugar-Skulls-coloring-adults/dp/B0D3B523HS?ref_=ast_author_dp_rw&dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQrvHt2dSaRs-_g5PZTavP3HQ84SxAx0dXQcbCvX3dSh8.1YcJpFTXgy3-GHoYwgLmrNXYPf8srMb6QWyaDiyRvAk&dib_tag=AUTHOR"
+            }
+        ]
+    },
+    adults: {
         Watercolor: [
             {
                 id: 10,
@@ -266,73 +335,6 @@ const books = {
                 category: "watercolor",
                 description: "Explore architectural perspective with charming village street scenes, perfect for practicing design and composition in your watercolor painting.",
                 link: "https://www.amazon.com/Watercolor-Templates-Village-Streets-Roxy/dp/B0D9QLLWWT?dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQrvHt2dSaRs-_g5PZTavP3HQ84SxAx0dXQcbCvX3dSh8.1YcJpFTXgy3-GHoYwgLmrNXYPf8srMb6QWyaDiyRvAk&dib_tag=AUTHOR"
-            }
-        ],
-        Mindfulness: [
-            {
-                id: 27,
-                title: "Empower Daily",
-                image: affirmationempower,
-                type: "teensadults",
-                category: "affirmation",
-                description: "Transform your mindset with uplifting daily pages that inspire positive thinking and bring joy to your life and others.",
-                link: "https://www.amazon.com/Empower-Daily-Attuing-mindset-positive/dp/B0D4J9KBLT?ref_=ast_author_dp_rw&dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQrvHt2dSaRs-_g5PZTavP3HQ84SxAx0dXQcbCvX3dSh8.1YcJpFTXgy3-GHoYwgLmrNXYPf8srMb6QWyaDiyRvAk&dib_tag=AUTHOR"
-            },
-            {
-                id: 28,
-                title: "Ink Happy - Mood Adjusting Motivations",
-                image: inkhappymotivation,
-                type: "teensadults",
-                category: "mindful",
-                description: "Add humor to your relaxation with sarcastic sayings and intricate designs. Perfect for unwinding with a laugh and creativity.",
-                link: "https://www.amazon.com/Roxys-Happy-Adjusting-Motivations-Coloring/dp/B0DC6ZSMKJ?dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQrvHt2dSaRs-_g5PZTavP3HQ84SxAx0dXQcbCvX3dSh8.1YcJpFTXgy3-GHoYwgLmrNXYPf8srMb6QWyaDiyRvAk&dib_tag=AUTHOR"
-            },
-            {
-                id: 29,
-                title: "Ink Happy - Relax and Color On",
-                image: inkhappyrelax,
-                type: "teensadults",
-                category: "mindful",
-                description: "Relax and unwind with beautifully rendered butterflies, flowers, and birds. Color your stress away with your favorite coloring tools.",
-                link: "https://www.amazon.com/Roxys-Ink-Happy-Relax-Coloring/dp/B0D76SPVKX?dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQrvHt2dSaRs-_g5PZTavP3HQ84SxAx0dXQcbCvX3dSh8.1YcJpFTXgy3-GHoYwgLmrNXYPf8srMb6QWyaDiyRvAk&dib_tag=AUTHOR"
-            },
-            {
-                id: 30,
-                title: "Ink Happy - Relax and Color On Vol2",
-                image: inkhappyrelax2,
-                type: "teensadults",
-                category: "mindful",
-                description: "De-stress with intricate animal mandalas. Color your way to tranquility and immerse yourself in a peaceful, artistic world.",
-                link: "https://www.amazon.com/Roxys-Ink-Happy-Coloring-Mandalas/dp/B0D77JTYVT?ref_=ast_author_dp_rw&dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQrvHt2dSaRs-_g5PZTavP3HQ84SxAx0dXQcbCvX3dSh8.1YcJpFTXgy3-GHoYwgLmrNXYPf8srMb6QWyaDiyRvAk&dib_tag=AUTHOR"
-            },
-            {
-                id: 31,
-                title: "Ink Happy - Relax and Renew",
-                image: inkhappyrenew,
-                type: "teensadults",
-                category: "mindful",
-                description: "Find peace and joy with soothing mandalas and patterns. This coloring book is a retreat for creativity and relaxation.",
-                link: "https://www.amazon.com/Roxys-Ink-Happy-relaxing-coloring/dp/B0DBQ5SXM4?dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQrvHt2dSaRs-_g5PZTavP3HQ84SxAx0dXQcbCvX3dSh8.1YcJpFTXgy3-GHoYwgLmrNXYPf8srMb6QWyaDiyRvAk&dib_tag=AUTHOR"
-            },
-            {
-                id: 32,
-                title: "Ink Happy: Anxiety and Stress Relief",
-                image: inkhappystress,
-                type: "teensadults",
-                category: "mindful",
-                description: "Settle into a meditative coloring experience with beautifully rendered mandalas. Doodle your worries away for a relaxing escape.",
-                link: "https://www.amazon.com/Roxys-Ink-Happy-Anxiety-Coloring/dp/B0D9QP4P9Z?dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQrvHt2dSaRs-_g5PZTavP3HQ84SxAx0dXQcbCvX3dSh8.1YcJpFTXgy3-GHoYwgLmrNXYPf8srMb6QWyaDiyRvAk&dib_tag=AUTHOR"
-            }
-        ],
-        More: [
-            {
-                id: 26,
-                title: "Sugar Skulls",
-                image: coloringsugarskulls,
-                type: "teensadults",
-                category: "coloring",
-                description: "Celebrate life with bright, unique sugar skull designs. Color your way through Day of the Dead traditions and de-stress.",
-                link: "https://www.amazon.com/Roxys-Sugar-Skulls-coloring-adults/dp/B0D3B523HS?ref_=ast_author_dp_rw&dib=eyJ2IjoiMSJ9.ok4r3sFTQZJMW-OxlJfJANdcTJOQ3Jd_YaRtll7XWvx13QGkIZROZTXKfoSzvRgjrZMHDLpxRMxt8VUsJcKity1u0Xi4qXpqW-PNxJw8McnntoIe4cF7PyUcntaGtJIkRC0RBZPS_mRO_hWwBLJu1CuajYnyMLJBanUEqgUu-pWIuN-FSg3XJkxxvhMTkIMQrvHt2dSaRs-_g5PZTavP3HQ84SxAx0dXQcbCvX3dSh8.1YcJpFTXgy3-GHoYwgLmrNXYPf8srMb6QWyaDiyRvAk&dib_tag=AUTHOR"
             }
         ]
     }
