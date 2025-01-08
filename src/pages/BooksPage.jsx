@@ -19,7 +19,7 @@ const BooksPage = () => {
   const categories = booksData[type]
 
   const mappedCategories = Object.entries(categories).map(([category, books]) => (
-    <CardGridSection key={category} title={category} cards={books} />
+    <CardGridSection key={category} title={category} cards={books} page="books" />
   ))
 
   const typeTitle = type.charAt(0).toUpperCase() + type.slice(1)
