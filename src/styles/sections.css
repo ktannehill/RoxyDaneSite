@@ -6,22 +6,59 @@
     height: 400px;
     position: relative;
     background-color: var(--navy);
+    overflow: hidden;
 }
 
-#hero img {
+#hero img.background {
     object-fit: cover;
     width: 100%;
     height: 100%;
     opacity: 0.2;
 }
 
-#hero div {
+#hero div.content {
     position: absolute;
     z-index: 10;
     top: 45%;
     left: 5%;
     right: 5%;
     color: var(--cream);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.scrolling-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 1rem;
+    position: absolute;
+    right: 10%;
+    top: 0;
+    width: 50%;
+    animation: scrollY 60s linear infinite; 
+}
+
+@keyframes scrollY {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+.hero-cover {
+    position: relative;
+    display: block;
+    margin: 0;
+    transition: all 0.3s ease;
+}
+
+.hero-cover img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 2 / 3;
+    opacity: 0.5;
 }
 
 /*! Card Grid */
@@ -143,7 +180,7 @@ article .content {
 /*! Media query for tablet */
 
 @media (min-width: 700px) {
-    #hero div {
+    #hero div.content {
         top: 50%;
     }
 
@@ -188,7 +225,7 @@ article .content {
 /*! Media query for desktop */
 
 @media (min-width: 1000px) {
-    #hero div {
+    #hero div.content {
         left: 10%;
         right: 10%;
     }
