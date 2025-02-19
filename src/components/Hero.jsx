@@ -1,7 +1,6 @@
 import "../styles/sections.css"
 import books from '../assets/data/booksData'
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const flattenBooks = () => {
   const allBooks = []
@@ -27,8 +26,22 @@ const Hero = () => {
   const [randomizedBooks, setRandomizedBooks] = useState([])
 
   useEffect(() => {
-    setRandomizedBooks(shuffleArray(flattenBooks(books)))
-  }, [books])
+    const booksArray = shuffleArray(flattenBooks(books))
+    setRandomizedBooks([...booksArray, ...booksArray])
+
+    const updateScrollSpeed = () => {
+      const container = document.querySelector(".scrolling-container")
+      if (!container) return
+  
+      const columns = getComputedStyle(container).gridTemplateColumns.split(" ").length
+      const speed = Math.min(90, 180 / columns) + "s"
+      container.style.setProperty("--scroll-speed", speed)
+    }
+  
+    updateScrollSpeed()
+    window.addEventListener("resize", updateScrollSpeed)
+    return () => window.removeEventListener("resize", updateScrollSpeed)
+  }, [])
 
   return (
     <section id="hero">
@@ -42,12 +55,14 @@ const Hero = () => {
           Spark creativity, fun, and relaxation today!
         </h3>
       </div>
-      <div className="scrolling-container">
-        {randomizedBooks.map(book => (
-          <div key={book.id} className="hero-cover">
-            <img src={book.image} alt={book.title} />
-          </div>
-        ))}
+      <div className="scrolling-wrapper">
+        <div className="scrolling-container">
+          {randomizedBooks.map((book, index) => (
+            <div key={`${book.id || index}-${index >= randomizedBooks.length / 2 ? "copy" : "orig"}`} className="hero-cover">
+              <img src={book.image} alt={book.title} />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   )
