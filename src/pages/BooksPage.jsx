@@ -26,7 +26,7 @@ const BooksPage = () => {
 
   return (
     <div>
-      <h1  className='container'>
+      <h1 className='container'>
         {typeTitle} Books
       </h1>
       {mappedCategories}

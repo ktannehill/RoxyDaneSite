@@ -6,22 +6,67 @@
     height: 400px;
     position: relative;
     background-color: var(--navy);
+    overflow: hidden;
 }
 
-#hero img {
+#hero img.background {
     object-fit: cover;
     width: 100%;
     height: 100%;
     opacity: 0.2;
 }
 
-#hero div {
+#hero div.content {
     position: absolute;
     z-index: 10;
     top: 45%;
     left: 5%;
     right: 5%;
     color: var(--cream);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.scrolling-wrapper {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 10%;
+    top: 0;
+    width: 50%;
+}
+
+.scrolling-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 1rem;
+    --scroll-speed: 60s;
+    animation: scrollLoop var(--scroll-speed) linear infinite;
+}
+
+@keyframes scrollLoop {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-50%);
+    }
+}
+
+.hero-cover {
+    position: relative;
+    display: block;
+    margin: 0;
+    transition: all 0.3s ease;
+}
+
+.hero-cover img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 2 / 3;
+    opacity: 0.5;
 }
 
 /*! Card Grid */
@@ -143,7 +188,7 @@ article .content {
 /*! Media query for tablet */
 
 @media (min-width: 700px) {
-    #hero div {
+    #hero div.content {
         top: 50%;
     }
 
@@ -188,9 +233,13 @@ article .content {
 /*! Media query for desktop */
 
 @media (min-width: 1000px) {
-    #hero div {
+    #hero div.content {
         left: 10%;
         right: 10%;
+    }
+
+    .scrolling-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
   
 }
@@ -202,6 +251,13 @@ article .content {
 
     .image-text-section {
         gap: 2rem;
+    }
+  
+}
+
+@media (min-width: 1600px) {
+    .scrolling-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
   
 }
